@@ -1,0 +1,38 @@
+{
+  "name": "@fussymonkey-dev/searxng-mcp-server",
+  "version": "1.0.0",
+  "description": "Privacy-focused web search MCP server using SearXNG metasearch engine",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "searxng-mcp-server": "./src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test tests/*.test.js",
+    "health-check": "node scripts/health-check.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "searxng",
+    "search",
+    "privacy",
+    "metasearch",
+    "web-search"
+  ],
+  "author": "FussyMonkey.dev",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fussymonkey-dev/searxng-mcp-server"
+  },
+  "homepage": "https://fussymonkey.dev",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.6.1"
+  },
+  "devDependencies": {}
+}
