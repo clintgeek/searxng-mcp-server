@@ -5,7 +5,7 @@
   "type": "module",
   "main": "src/index.js",
   "bin": {
-    "searxng-mcp-server": "./src/index.js"
+    "searxng-mcp-server": "src/index.js"
   },
   "scripts": {
     "start": "node src/index.js",
@@ -25,7 +25,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/fussymonkey-dev/searxng-mcp-server"
+    "url": "git+https://github.com/fussymonkey-dev/searxng-mcp-server.git"
   },
   "homepage": "https://fussymonkey.dev",
   "engines": {
